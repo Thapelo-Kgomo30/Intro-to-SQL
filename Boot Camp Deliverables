@@ -1,0 +1,12 @@
+--Select * from delivery_data1 LIMIT 100;
+--SELECT * FROM delivery_data1 where delay_minutes= 0;
+--SELECT COUNT(*) FROM delivery_data1 WHERE weight_kg>5;
+---SELECT delay_minutes,city FROM delivery_data WHERE delay_minutes>0 GROUP by city;
+--Select carrier,city,COUNT(*) FROM delivery_data1 GROUP by city;
+--SELECT carrier,COUNT(*) AS Most_Used from delivery_data1 where city='Cape Town' GROUP by carrier ORDER by Most_Used DESC;
+---SELECT carrier,COUNT(*) AS Most_Used from delivery_data1 where city='Bloemfontein' GROUP by carrier ORDER by Most_Used DESC;
+---SELECT carrier,COUNT(*) AS Most_Used from delivery_data1 where city='Johannesburg' GROUP by carrier ORDER by Most_Used DESC;
+---SELECT carrier,COUNT(*) AS Most_Used from delivery_data1 where city='Durban' GROUP by carrier ORDER by Most_Used DESC;
+---SELECT carrier,COUNT(*) AS Most_Used from delivery_data1 where city='Pretoria' GROUP by carrier ORDER by Most_Used DESC;
+--SELECT carrier,COUNT(*) AS Most_Used from delivery_data1 where city='Gqeberha' GROUP by carrier ORDER by Most_Used DESC;
+--Select carrier,Count(*) AS Furthest_distance from delivery_data1 where city='Cape Town' Group by carrier Order by Furthest_distance DESC;
