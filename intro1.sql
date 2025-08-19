@@ -1,0 +1,10 @@
+--SELECT * FROM delivery_data1;
+---select * from delivery_data1 WHERE customer_id in (10130, 10271, 10207);
+---SELECT SUM(distance_km) FROM delivery_data1 WHERE customer_id IN (10130,10271,10207);
+---SELECT SUM(distance_km) FROM delivery_data1 WHERE delivery_id IN('D00137','D00140','D00172');
+---SELECT * from delivery_data1 LIMIT 10;
+---SELECT city, AVG(distance_km) from delivery_data1 GROUP by city;
+--SELECT COUNT(city) FROM delivery_data1;
+---Select COUNT(city) FROM delivery_data1 where city='Johannesburg';
+---SELECT COUNT(city) FROM delivery_data1 WHERE CITY='Pretoria';
+---SELECT COUNT(city) FROM delivery_data1 WHERE CITY='Bloemfontein';
