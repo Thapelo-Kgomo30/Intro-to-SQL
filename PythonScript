@@ -1,0 +1,10 @@
+[Running] python -u "c:\Users\Thapelo\Desktop\python Programs\deliveryanalysis.py"
+           city  total_deliveries  delayed_deliveries  avg_delay  max_delay
+0      Pretoria                33                  14  44.071429         96
+1  Johannesburg                72                  29  41.448276        125
+2     Cape Town                55                  20  33.750000         66
+3  Bloemfontein                19                   5  33.000000         57
+4        Durban                41                  13  32.769231         58
+5      Gqeberha                30                   9  31.777778         66
+
+[Done] exited with code=0 in 0.834 seconds
